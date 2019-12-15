@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: simple-redis
+
+  redis:
+    host: 127.0.0.1
+    database: 0
+
+debug: true
+logging:
+  level:
+    com.jxedu: debug

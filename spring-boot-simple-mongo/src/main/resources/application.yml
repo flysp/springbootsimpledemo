@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: simple-mongo
+  data:
+    mongodb:
+      uri: mongodb://libin:libin@localhost:27017/mongodemo
+#      username: libin
+#      password: libin
+#      host: localhost
+#      port: 27017
+#      database: mongodemo
+debug: true
+logging:
+  level:
+    com.jxedu: debug
