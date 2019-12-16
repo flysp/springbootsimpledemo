@@ -1,5 +1,7 @@
 package com.jxedu;
 
+import com.alicp.jetcache.anno.config.EnableCreateCacheAnnotation;
+import com.alicp.jetcache.anno.config.EnableMethodCache;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +16,13 @@ import org.springframework.data.redis.core.ValueOperations;
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
-/**
+/**@EnableMethodCache和@EnableCreateCacheAnnotation，这两个注解分别激活Cached和CreateCache注解:
  * @author libin
  */
 @Slf4j
 @SpringBootApplication
+@EnableMethodCache(basePackages = "com.jxedu.service")
+@EnableCreateCacheAnnotation
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class SimpleRedisMain implements ApplicationRunner {
 

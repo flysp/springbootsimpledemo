@@ -3,12 +3,12 @@ spring:
     name: simple-mongo
   data:
     mongodb:
-      uri: mongodb://libin:libin@localhost:27017/mongodemo
+#      uri: mongodb://10.5.52.3:27017/test_stu
 #      username: libin
 #      password: libin
-#      host: localhost
-#      port: 27017
-#      database: mongodemo
+      host: 10.5.52.3
+      port: 28018
+      database: test_stu
 debug: true
 logging:
   level:

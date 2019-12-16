@@ -34,5 +34,11 @@
             <artifactId>fastjson</artifactId>
             <version>RELEASE</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alicp.jetcache/jetcache-starter-redis -->
+        <dependency>
+            <groupId>com.alicp.jetcache</groupId>
+            <artifactId>jetcache-starter-redis</artifactId>
+            <version>2.5.13</version>
+        </dependency>
     </dependencies>
 </project>
