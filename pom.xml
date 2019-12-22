@@ -10,6 +10,8 @@
     <modules>
         <module>spring-boot-simple-redis</module>
         <module>spring-boot-simple-mongo</module>
+        <module>spring-boot-simple-es</module>
+        <module>spring-boot-simple-tx</module>
     </modules>
     <packaging>pom</packaging>
      <parent>
