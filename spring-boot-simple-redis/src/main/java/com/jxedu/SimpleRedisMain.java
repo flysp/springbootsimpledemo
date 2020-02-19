@@ -40,6 +40,7 @@ public class SimpleRedisMain implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+
         log.debug("容器启动：[{}]",redisTemplate.getClientList());
 //        valueOperationsStr.set("srdt","srdt",10, TimeUnit.MINUTES);
 //        valueOperationsRd.set("srdtRd","srdtRd",10,TimeUnit.MINUTES);
